@@ -1,0 +1,16 @@
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.purchased {
+    background-color: #d1ffd1;
+}
+
+
+.card {
+    margin-left: 2px;
+
+    width: 700%; 
+    max-width: 500px; 
+    border:2px solid #272828;
+}

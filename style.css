@@ -1,16 +1,30 @@
-.strikethrough {
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  #shopping-list li {
+    transition: background-color 0.3s, text-decoration 0.3s;
+  }
+  
+  .purchased {
     text-decoration: line-through;
-}
+    background-color: #d4edda;
+  }
+  
+  .btn-remove {
+    margin-left: auto;
+  }
+  
+  .check-icon {
+    margin-right: 10px;
+    color: green;
+    visibility: hidden;
+  }
+  
+  .purchased .check-icon {
+    visibility: visible;
+  }
 
-.purchased {
-    background-color: #d1ffd1;
-}
-
-
-.card {
-    margin-left: 2px;
-
-    width: 700%; 
-    max-width: 500px; 
-    border:2px solid #272828;
-}
+  
